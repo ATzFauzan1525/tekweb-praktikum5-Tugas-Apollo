@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apollo Platform</title>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+
+  <body class="font-sans text-gray-800 bg-white">
+    <header class="flex justify-between items-center px-6 md:px-20 py-4 shadow-sm bg-white border-b border-black/20">
+      <div class="flex items-center space-x-2">
+        <div class="text-blue-600 font-extrabold text-xl">△POLLO</div>
+      </div>
+      <nav class="hidden md:flex items-center space-x-6">
+        <a href="#" class="text-gray-700 hover:text-blue-600">Home</a>
+        <a href="#" class="text-gray-700 hover:text-blue-600">Features</a>
+        <button class="border border-blue-500 text-blue-500 px-4 py-1 rounded hover:bg-blue-50">
+          Sign in
+        </button>
+        <button class="bg-blue-600 text-white px-4 py-1 rounded hover:bg-blue-700">
+          Sign up
+        </button>
+      </nav>
+      <div class="md:hidden">
+        <button id="menu-btn" class="text-gray-700 text-2xl">☰</button>
+      </div>
+    </header>
+
+    <section
+      class="flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-20 py-20 bg-white">
+      <div class="max-w-xl text-center md:text-left mt-10 md:mt-0">
+        <h1 class="text-3xl md:text-4xl font-extrabold text-blue-700 mb-4 leading-tight">
+          LEARN, BUILD, & SHOWCASE <br />ALL IN ONE PLATFORM
+        </h1>
+        <p class="text-gray-600 mb-6 text-sm md:text-base">
+          APOLLO is the Advanced Programming and Online Learning Laboratory that combines LMS, Project Management,
+          and Portfolio in a seamless ecosystem. Learn new skills, collaborate on real projects, and showcase
+          your achievements — all within one integrated platform.
+        </p>
+        <div class="space-x-3">
+          <button
+            class="bg-blue-600 text-white px-5 py-2 rounded-md hover:bg-blue-700 font-semibold">
+            Get Started for Free
+          </button>
+          <button
+            class="border border-blue-500 text-blue-500 px-5 py-2 rounded-md hover:bg-blue-50 font-semibold">
+            Explore Features
+          </button>
+        </div>
+      </div>
+
+      <img src="ilustation.svg" alt="Illustration" class="w-64 md:w-96"/>
+    </section>
+
+    <section class="bg-blue-50 py-20 px-6 text-center">
+      <h2 class="text-2xl md:text-3xl font-bold mb-4">
+        What You’ll Get With Apollo
+      </h2>
+      <p class="text-gray-600 mb-10 text-sm md:text-base">
+        A powerful ecosystem designed to help you learn faster, build smarter, and showcase better.
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div
+          class="bg-white p-8 rounded-xl shadow hover:shadow-lg transition flex flex-col items-center">
+          <div class="text-blue-600 text-4xl mb-3">📘</div>
+          <h3 class="font-bold text-lg mb-2">Learning Management System</h3>
+          <p class="text-gray-600 text-sm">
+            Master programming skills with structured modules, interactive lessons, quizzes, and coding challenges.
+          </p>
+        </div>
+
+        <div
+          class="bg-white p-8 rounded-xl shadow hover:shadow-lg transition flex flex-col items-center">
+          <div class="text-green-500 text-4xl mb-3">🧩</div>
+          <h3 class="font-bold text-lg mb-2">Project Management</h3>
+          <p class="text-gray-600 text-sm">
+            Turn your knowledge into real experience. Collaborate with teammates, manage tasks, and track progress — just like real projects.
+          </p>
+        </div>
+
+        <div
+          class="bg-white p-8 rounded-xl shadow hover:shadow-lg transition flex flex-col items-center">
+          <div class="text-red-500 text-4xl mb-3">💼</div>
+          <h3 class="font-bold text-lg mb-2">Portfolio Management</h3>
+          <p class="text-gray-600 text-sm">
+            Showcase your best work in one place. Every project you build can be instantly added to your portfolio to share with recruiters, peers, and the world.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-blue-100 py-20 text-center px-6">
+      <div class="max-w-3xl mx-auto">
+        <div class="text-4xl mb-4">🚀</div>
+        <h2 class="text-2xl md:text-3xl font-bold mb-4">
+          Ready to Launch Your Journey?
+        </h2>
+        <p class="text-gray-600 mb-6 text-sm md:text-base">
+          Join Apollo today and experience the all-in-one ecosystem to learn programming, build real projects, and showcase your portfolio.
+        </p>
+        <button
+          class="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 font-semibold">
+          Get Started Free
+        </button>
+      </div>
+    </section>
+
+    <footer class="bg-gray-900 text-gray-300 py-12 px-10 md:px-20">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10 text-center md:text-left">
+        <div>
+          <h3 class="text-white text-xl font-bold mb-3">△POLLO</h3>
+          <p class="text-sm">
+            Advanced Programming and Online Learning Laboratory
+          </p>
+          <ul class="mt-4 space-y-1 text-sm">
+            <li>📞 +62 1234 5678 9101</li>
+            <li>✉️ apollo@apollo.com</li>
+            <li>📍 Kampus 4 Universitas Ahmad Dahlan</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="text-white font-semibold mb-2">Quick Links</h4>
+          <ul class="space-y-1 text-sm">
+            <li><a href="#" class="hover:text-white">Home</a></li>
+            <li><a href="#" class="hover:text-white">Features</a></li>
+            <li><a href="#" class="hover:text-white">How it works</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="text-white font-semibold mb-2">Resources</h4>
+          <ul class="space-y-1 text-sm">
+            <li><a href="#" class="hover:text-white">Support</a></li>
+            <li><a href="#" class="hover:text-white">Privacy Policy</a></li>
+            <li><a href="#" class="hover:text-white">Terms of use</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="border-t border-gray-700 mt-8 pt-4 text-center text-xs text-gray-500">
+        ©2025 APOLLO • All rights reserved
+      </div>
+    </footer>
+  </body>
+</html>
